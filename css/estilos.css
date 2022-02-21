@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-family: fantasy;
+    background-color: rgba(0, 0, 255, 0.568);
+    /*display: flex;*/
+    min-height: 100vh;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.header{
+    display: grid;
+}
+
+.glassmorphism{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    text-shadow: 10px 10px 10px blue;
+}
+.header{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 20% 16% 16%;
+    height: 80px;
+    margin: 20px 50px;
+    text-align: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.footer{
+    color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 80px;
+    margin-top: 7%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    text-shadow: 0.1em 0.1em 0.4em #fff;
+    align-items: center;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    transform: rotate(280deg);
+    animation-name: animaFondo;
+    animation: animaFondo 0.8s infinite alternate-reverse;
+}
+@keyframes animaFondo {
+    0% {color:#ffffff;}
+    50%{color:#fae900;}
+    100%{color:#ffffff;}
+}
+.padre2 {
+    display: grid;
+    grid-template-rows: auto;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.marketing{
+    background-color: #a0c951;
+    color: aliceblue;
+    width: 400px;
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25% 25% 25% 25%;
+    border-radius: 47%;
+    /*margin-top: ;
+    margin-left: ;*/
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.boton1{
+    margin-top: 4vh;
+    padding: 10px 15px;
+    border-radius: 40%;
+    /*background-color: #360188;*/
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: aliceblue;
+}
+
+.boton1:hover{
+    color: #a0c951;
+}
+
+.p{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0.1em 0.1em 0.4em #000;
+}
+
+section{
+    margin-bottom: auto;
+}
+/***********************/
+/*TRABAJA CON NOSOTROS*/
+/*********************/
+h2{
+    text-align: center;
+    font-weight: 50;
+}
+.antibold{
+    font-weight: normal;
+}
+.pas0{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    align-items: center;
+    text-align: center;
+    margin: 0 5%;
+}
+.paso1{
+    width: 100%;
+    height: 300px;
+    background-color: #dceefc;
+    color: #2d8ed8;
+    align-items: center;
+    text-align: center;
+}
+.paso2{
+    width: 100%;
+    height: 300px;
+    background-color: #427da9;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.paso3{
+    width: 100%;
+    height: 300px;
+    background-color: #00315a;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.form{
+    background-color: rgba(234, 234, 255, 0.233);
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px -5px rgba(0 0 0 );
+    text-align: center;
+}
+.h2{
+    text-align: center;
+    color: var(--color);
+}
+.form-container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+    background: none;
+}
+.form-group{
+    position: relative;
+    --color: #00315a;
+}
+.input{
+    width: 100%;
+    background: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+}
+.label{
+    color: rgba(115, 233, 121, 0.829);
+    /*color: var(--color);
+    cursor: pointer;
+    /*position: absolute;*/
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5, color .3s;
+}
+.input:focus + .label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+}
+.form-submit{
+    background-color: rgba(115, 233, 121, 0.829);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 1300;
+    padding: .8rem 0;
+    border: none;
+    border-radius: .5em;
+    width: 50%;
+    margin-left: 25%;
+}
+.form-submit:hover{
+    color: green;
+}
+/*fieldset{
+    border-radius: 30px;
+    background-color: green;
+    border: 3px solid rgb(119, 196, 219);
+}
+form{
+    justify-content: center;
+    display: grid;
+    margin: 20px;
+    
+}
+
+label, input{
+    display: block;
+    text-align: center;
+    
+}
+.flex{
+    display: flex;
+}
+.boton2{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(31, 31, 226, 0.548);
+    border-radius: 30px;
+    margin: 15px 50px;
+    border: 1.5px solid rgb(119, 196, 219);
+}*/
+/*****************/
+/*SOBRE NOSOTROS*/
+/***************/
+.idea{
+    background-color: aqua;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+.creadores{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 25%;
+}
+.meme{
+    width: 250px;
+    height: 300px;
+}
